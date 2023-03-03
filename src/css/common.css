@@ -29,12 +29,14 @@ img {
   width: 500px;
   height: 200px;
 }
+
 .field {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 .field {
   position: relative;
   min-width: 60px;
@@ -42,6 +44,7 @@ img {
   margin-right: 10px;
   text-align: center;
 }
+
 .field:not(:last-child)::after {
   content: ':';
   font-size: 40px;
@@ -49,10 +52,12 @@ img {
   right: -15px;
   top: 48px;
 }
+
 .value {
   font-family: 'digital';
   font-size: 48px;
 }
+
 .label {
   font-size: 24px;
   color: gray;
